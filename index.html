@@ -3,25 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CTHULHUHALO | $CTHULHU</title>
+    <title>Boss Vitalik | $BOSSVITALIK</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="images/logo.png" type="image/png" />
+    <link rel="icon" href="/bossVitalik_logo.png" type="image/png" />
     <style>
       :root {
         --primary-bg: #000010;
         --secondary-bg: #0a0020;
-        --card-bg: rgba(15, 20, 25, 0.95);
-        --border-color: rgba(47, 51, 54, 0.8);
+        --card-bg: rgba(26, 26, 26, 0.95);
+        --border-color: rgba(184, 142, 28, 0.8);
         --hover-bg: rgba(29, 155, 240, 0.1);
         --text-primary: #e7e9ea;
         --text-secondary: #71767b;
-        --accent-purple: #8b5cf6;
+        --accent-purple: #b9ad00;
         --accent-blue: #1d9bf0;
-        --cosmic-purple: #ba55d3;
-        --cosmic-dark: #4c1d95;
+        --cosmic-purple: #db7c00;
+        --cosmic-dark: #8d6000;
         --twitter-blue: #1d9bf0;
         --twitter-hover: #1a8cd8;
       }
@@ -35,16 +35,8 @@
       body {
         font-family: "Space Grotesk", -apple-system, BlinkMacSystemFont,
           "Segui UI", Roboto, Arial, sans-serif;
-        background: linear-gradient(
-            135deg,
-            rgba(0, 0, 16, 0.9) 0%,
-            rgba(15, 0, 40, 0.85) 25%,
-            rgba(26, 0, 64, 0.8) 50%,
-            rgba(10, 0, 32, 0.85) 75%,
-            rgba(10, 0, 32, 0.9) 100%
-          ),
-          url("images/bg.jpg");
-        background-size: 400% 400%, cover;
+        background-image: url('/images/bg.jpg');
+        background-size: 100% 100%, cover;
         background-position: 0% 50%, center;
         background-attachment: fixed, fixed;
         animation: cosmicGradient 20s ease infinite;
@@ -107,7 +99,7 @@
         font-family: "Orbitron", sans-serif;
         font-size: 20px;
         font-weight: 800;
-        background: linear-gradient(135deg, var(--cosmic-purple), #e879f9);
+        background: linear-gradient(135deg, var(--cosmic-purple), #946000);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -157,7 +149,7 @@
       .cta-button:hover {
         background: var(--twitter-hover);
         transform: translateY(-1px);
-        box-shadow: 0 8px 25px rgba(29, 155, 240, 0.3);
+        box-shadow: 0 8px 25px rgba(240, 201, 29, 0.3);
       }
 
       /* Main Content Layout */
@@ -209,15 +201,15 @@
         object-fit: cover;
         margin: 0 auto 24px;
         border: 4px solid var(--cosmic-purple);
-        box-shadow: 0 0 40px rgba(139, 92, 246, 0.4),
-          0 0 80px rgba(186, 85, 211, 0.2);
+        box-shadow: 0 0 40px rgba(246, 197, 92, 0.4),
+          0 0 80px rgba(211, 171, 85, 0.2);
         transition: all 0.3s ease;
       }
 
       .profile-avatar:hover {
         transform: scale(1.05);
-        box-shadow: 0 0 60px rgba(139, 92, 246, 0.6),
-          0 0 120px rgba(186, 85, 211, 0.3);
+        box-shadow: 0 0 60px rgba(246, 197, 92, 0.4),
+          0 0 120px rgba(211, 171, 85, 0.3);
       }
 
       .profile-name {
@@ -225,7 +217,7 @@
         font-size: 32px;
         font-weight: 800;
         margin-bottom: 8px;
-        background: linear-gradient(135deg, var(--cosmic-purple), #e879f9);
+        background: linear-gradient(135deg, var(--cosmic-purple), #f9cc79);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -299,8 +291,8 @@
         background: rgba(15, 20, 25, 0.98);
         border-color: var(--cosmic-purple);
         transform: translateY(-2px);
-        box-shadow: 0 12px 40px rgba(139, 92, 246, 0.15),
-          0 0 20px rgba(186, 85, 211, 0.1);
+        box-shadow: 0 12px 40px rgba(246, 192, 92, 0.15),
+          0 0 20px rgba(211, 177, 85, 0.1);
       }
 
       .tweet-header {
@@ -403,8 +395,8 @@
       }
 
       .sidebar-card:hover {
-        border-color: rgba(139, 92, 246, 0.5);
-        box-shadow: 0 8px 30px rgba(139, 92, 246, 0.1);
+        border-color: rgba(246, 184, 92, 0.5);
+        box-shadow: 0 8px 30px rgba(246, 210, 92, 0.1);
       }
 
       .sidebar-title {
@@ -519,7 +511,7 @@
       }
 
       .contract-address {
-        background: rgba(139, 92, 246, 0.1);
+        background: rgba(246, 192, 92, 0.1);
         border: 1px solid var(--cosmic-purple);
         border-radius: 12px;
         padding: 12px;
@@ -533,8 +525,8 @@
       }
 
       .contract-address:hover {
-        background: rgba(139, 92, 246, 0.2);
-        border-color: #e879f9;
+        background: rgba(246, 174, 92, 0.2);
+        border-color: #f9c679;
       }
 
       /* Steps */
@@ -557,7 +549,7 @@
       .step-number {
         width: 48px;
         height: 48px;
-        background: linear-gradient(135deg, var(--cosmic-purple), #e879f9);
+        background: linear-gradient(135deg, var(--cosmic-purple), #f9cc79);
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -783,18 +775,17 @@
     <nav class="nav-bar">
       <div class="nav-content">
         <div class="logo-section">
-          <img src="images/logo.png" alt="CTHULHUHALO" class="logo-img" />
-          <!-- <span class="brand-name">CTHULHUHALO</span> -->
+          <img src="/bossVitalik_logo.png" alt="$BOSSVITALIK" class="logo-img" />
+          <!-- <span class="brand-name">$BOSSVITALIK</span> -->
         </div>
         <div class="nav-links">
           <a href="index.html#about" class="nav-link">About</a>
           <a href="index.html#tokenomics" class="nav-link">Tokenomics</a>
-          <a href="index.html#roadmap" class="nav-link">Roadmap</a>
           <a href="index.html#how-to-buy" class="nav-link">How to Buy</a>
         </div>
         <a href="https://app.uniswap.org" target="_blank" class="cta-button">
           <span></span>
-          Buy $CTHULHU
+          Buy $BOSSVITALIK
         </a>
       </div>
     </nav>
@@ -815,7 +806,7 @@
         class="floating-element"
         style="top: 60%; left: 15%; font-size: 18px; animation-delay: 4s"
       >
-        🔮
+       
       </div>
       <div
         class="floating-element"
@@ -832,20 +823,22 @@
         <!-- Hero Profile Card -->
         <div class="hero-profile fade-in">
           <img
-            src="images/logo.png"
-            alt="CTHULHUHALO"
+            src="/bossVitalik_web.gif"
+            alt="$BOSSVITALIK"
             class="profile-avatar"
           />
-          <h1 class="profile-name">CTHULHUHALO</h1>
-          <p class="profile-handle">@CthulhuHalo • $CTHULHU</p>
+          <h1 class="profile-name">$BOSSVITALIK</h1>
+          <p class="profile-handle">Boss Vitalik | $BOSSVITALIK</p>
           <p class="profile-bio">
-            The Ethereum Degen Communism Mascot <br />
-            Inspired by Vitalik's "Degen Communism" - Where chaos meets divine
-            order
+         Boss Vitalik is the real final boss of the Ethereum world. 
+         The genius who forged the chain, commands the gas, and rewrites 
+         the rules of DeFi like it’s his own game. He’s the one standing 
+         at the very end of the roadmap, waiting for challengers. In the 
+         Ethereum universe, you don’t reach the moon without facing the boss… and Boss Vitalik never loses.
           </p>
           <div class="profile-stats">
             <div class="stat-item">
-              <span class="stat-number">420.69B</span>
+              <span class="stat-number">1,000,000,000</span>
               <span class="stat-label">Total Supply</span>
             </div>
             <div class="stat-item">
@@ -864,10 +857,10 @@
               class="btn-primary"
             >
               <span></span>
-              Buy $CTHULHU
+              Buy $BOSSVITALIK
             </a>
             <a
-              href="https://www.dextools.io/app/en/ether/pair-explorer/0x4f739c0a246b371818a4f1316424afc1e9aa64e8?t=1754063194252"
+              href="https://www.dextools.io/"
               target="_blank"
               class="btn-secondary"
             >
@@ -881,127 +874,42 @@
         <div class="tweet-card fade-in delay-1" id="about">
           <div class="tweet-header">
             <img
-              src="images/logo.png"
-              alt="CTHULHUHALO"
+              src="/bossVitalik_logo.png"
+              alt="BOSS VITALIK"
               class="tweet-avatar"
             />
             <div class="tweet-user-info">
-              <h3>CTHULHUHALO</h3>
-              <span class="tweet-handle">@CthulhuHalo • 1h</span>
+              <h3>BOSS VITALIK</h3>
+              <span class="tweet-handle">@BossVitalikETH</span>
             </div>
           </div>
           <div class="tweet-content">
-            <h4>About CTHULHUHALO</h4>
-            <p>
-              $CTHULHU meme coin has emerged as a standout coin on the Ethereum
-              blockchain, proudly dubbed "The Ethereum Degen Communism Mascot."
-              Indirectly inspired by Vitalik Buterin's provocative April 1,
-              2024, blog post on "Degen Communism," this token captures the
-              intersection of meme culture, high-risk crypto enthusiasm, and
-              aspirations for social equity.
-            </p>
-            <br />
-            <p>
-              <strong
-                >From Vitalik Buterin's Vision to $CTHULHU Meme Coin</strong
-              >
-            </p>
-            <p>
-              In his article, "Degen Communism: The Only Correct Political
-              Ideology," published on vitalik.eth.limo, Vitalik Buterin
-              introduced a daring concept blending the "degen" mindset with
-              ideals of equitable resource distribution and global unity.
-            </p>
-            <img
-              src="images/about.jpg"
-              alt="Cthulhu with Halo"
-              class="tweet-image"
-            />
-            <p>
-              A striking image of Cthulhu, the mythical creature from H.P.
-              Lovecraft's universe, adorned with a halo, symbolized this fusion
-              of chaos and idealism. $CTHULHU was born as a nod to Buterin's
-              vision! 🎭
-            </p>
+            <h4>BOSS VITALIK LIVE CHART</h4>
+            <img src="/BossVitalikETH_banner.jpg" style="width: 100%; height: auto; border: #946000 solid 2px; border-radius: 20px;" />
+
           </div>
-          <div class="tweet-actions">
-            <button class="action-btn">💬 42</button>
-            <button class="action-btn">🔄 128</button>
-            <button class="action-btn">❤️ 256</button>
-            <button class="action-btn">📤 Share</button>
-          </div>
+<style>#dexscreener-embed{position:relative;width:100%;padding-bottom:125%;}@media(min-width:1400px){#dexscreener-embed{padding-bottom:65%;}}#dexscreener-embed iframe{position:absolute;width:100%;height:100%;top:0;left:0;border:0;}</style><div id="dexscreener-embed"><iframe src="https://dexscreener.com/osmosis/1948?embed=1&loadChartSettings=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=0&chartType=usd&interval=15"></iframe></div>
+
+
         </div>
 
-        <!-- Roadmap Tweet -->
-        <div class="tweet-card fade-in delay-2" id="roadmap">
-          <div class="tweet-header">
-            <img
-              src="images/logo.png"
-              alt="CTHULHUHALO"
-              class="tweet-avatar"
-            />
-            <div class="tweet-user-info">
-              <h3>CTHULHUHALO</h3>
-              <span class="tweet-handle">@CthulhuHalo • 2h</span>
-            </div>
-          </div>
-          <div class="tweet-content">
-            <h4>The CTHULHUHALO Roadmap</h4>
-            <p>
-              <strong>Phase 1: The Awakening</strong> ✅<br />
-              • Token Launch on Ethereum<br />
-              • Community Building & Social Media Growth<br />
-              • Website Launch<br />
-              • Initial Marketing Push
-            </p>
-
-            <p>
-              <strong>Phase 2: The Degen Communion</strong> 🔥<br />
-              • CEX Listings<br />
-              • Partnerships with Crypto Influencers<br />
-              • Community Events & Giveaways<br />
-              • Official Merchandise Store
-            </p>
-
-            <p>
-              <strong>Phase 3: The Cosmic Revolution</strong> <br />
-              • NFT Collection Launch<br />
-              • Cross-Chain Expansion<br />
-              • DAO Implementation<br />
-              • Real-World Community Meetups
-            </p>
-
-            <p>
-              <strong>Phase 4: The Eternal Reign</strong> 👑<br />
-              • Metaverse Integration<br />
-              • Mobile App Development<br />
-              • Strategic Partnerships<br />
-              • Further Utility Development
-            </p>
-          </div>
-          <div class="tweet-actions">
-            <button class="action-btn">💬 89</button>
-            <button class="action-btn">🔄 234</button>
-            <button class="action-btn">❤️ 567</button>
-            <button class="action-btn">📤 Share</button>
-          </div>
-        </div>
+       
 
         <!-- How to Buy Tweet -->
         <div class="tweet-card fade-in delay-3" id="how-to-buy">
           <div class="tweet-header">
             <img
-              src="images/logo.png"
-              alt="CTHULHUHALO"
+              src="/bossVitalik_logo.png"
+              alt="BOSS VITALIK"
               class="tweet-avatar"
             />
             <div class="tweet-user-info">
-              <h3>CTHULHUHALO</h3>
-              <span class="tweet-handle">@CthulhuHalo • 3h</span>
+              <h3>BOSS VITALIK</h3>
+              <span class="tweet-handle">@BossVitalikETH</span>
             </div>
           </div>
           <div class="tweet-content">
-            <h4>How to Buy $CTHULHU</h4>
+            <h4>How to Buy $BOSSVITALIK</h4>
             <div class="step-item">
               <div class="step-number">1</div>
               <div class="step-content">
@@ -1038,10 +946,10 @@
             <div class="step-item">
               <div class="step-number">4</div>
               <div class="step-content">
-                <h4>Swap for $CTHULHU</h4>
-                <p>Enter the contract address and swap ETH for $CTHULHU:</p>
+                <h4>Swap for $BOSSVITALIK</h4>
+                <p>Enter the contract address and swap ETH for $BOSSVITALIK:</p>
                 <div class="contract-address">
-                  0x4206933aD8C83f610CDB0231936FaEe846F79fAB
+                  0x0000000000000000000000000
                 </div>
               </div>
             </div>
@@ -1051,17 +959,11 @@
               <div class="step-content">
                 <h4>Welcome to the Revolution!</h4>
                 <p>
-                  Set slippage to 0.5-1% and confirm. Welcome to the CTHULHUHALO
+                  Set slippage to 0.5-1% and confirm. Welcome to the BOSS VITALIK
                   community! 🎉
                 </p>
               </div>
             </div>
-          </div>
-          <div class="tweet-actions">
-            <button class="action-btn">💬 156</button>
-            <button class="action-btn">🔄 445</button>
-            <button class="action-btn">❤️ 892</button>
-            <button class="action-btn">📤 Share</button>
           </div>
         </div>
       </main>
@@ -1074,11 +976,11 @@
           <div class="tokenomics-grid">
             <div class="tokenomics-item">
               <span class="tokenomics-label">Ticker</span>
-              <span class="tokenomics-value">$CTHULHU</span>
+              <span class="tokenomics-value">$BOSSVITALIK</span>
             </div>
             <div class="tokenomics-item">
               <span class="tokenomics-label">Total Supply</span>
-              <span class="tokenomics-value">420.69B</span>
+              <span class="tokenomics-value">1,000,000,000</span>
             </div>
             <div class="tokenomics-item">
               <span class="tokenomics-label">Tax</span>
@@ -1094,7 +996,7 @@
             </div>
           </div>
           <div class="contract-address">
-            Contract: 0x4206933aD8C83f610CDB0231936FaEe846F79fAB
+            Contract: 0x0000000000000000000000000000
           </div>
         </div>
 
@@ -1103,7 +1005,7 @@
           <h3 class="sidebar-title">🌐 Join the Community</h3>
           <div class="social-links">
             <a
-              href="https://x.com/Cthulhu_ERC20"
+              href="https://x.com/BossVitalikETH"
               target="_blank"
               class="social-link"
             >
@@ -1111,7 +1013,7 @@
               Twitter
             </a>
             <a
-              href="https://t.me/CthulhuETH"
+              href="https://t.me/BossVitalikETH"
               target="_blank"
               class="social-link"
             >
@@ -1131,7 +1033,7 @@
               Chart
             </a>
             <a
-              href="https://www.dextools.io/app/en/ether/pair-explorer/0x4f739c0a246b371818a4f1316424afc1e9aa64e8?t=1754063194252"
+              href="https://www.dextools.io/"
               target="_blank"
               class="social-link"
             >
@@ -1145,44 +1047,8 @@
           </div>
         </div>
         <!-- Contact Card -->
-        <div class="sidebar-card fade-in delay-5">
-          <h3 class="sidebar-title">✉️ Contact</h3>
-          <div class="social-links">
-            <a href="mailto:cthulhuhaloeth@gmail.com" class="social-link">
-              📧 cthulhuhaloeth@gmail.com
-            </a>
-          </div>
-        </div>
-        <!-- Reference Links Card -->
-        <div class="sidebar-card fade-in delay-5">
-          <h3 class="sidebar-title">📚 Learn More</h3>
-          <div class="social-links">
-            <a
-              href="https://vitalik.eth.limo/general/2024/04/01/dc.html"
-              target="_blank"
-              class="social-link"
-            >
-              📖 Vitalik's Article
-            </a>
-            <a
-              href="https://en.wikipedia.org/wiki/Cthulhu"
-              target="_blank"
-              class="social-link"
-            >
-              🐙 Cthulhu Wiki
-            </a>
-            <a
-              href="https://knowyourmeme.com/memes/cthulhu"
-              target="_blank"
-              class="social-link"
-            >
-              🎭 Cthulhu Meme
-            </a>
-            <a href="https://ethereum.org/" target="_blank" class="social-link">
-              ⚡ Ethereum
-            </a>
-          </div>
-        </div>
+
+       
       </aside>
     </div>
 
@@ -1206,7 +1072,7 @@
         element.addEventListener("click", async function () {
           try {
             await navigator.clipboard.writeText(
-              "0x4206933aD8C83f610CDB0231936FaEe846F79fAB"
+              "0x000000000000000000000000"
             );
 
             // Show feedback
